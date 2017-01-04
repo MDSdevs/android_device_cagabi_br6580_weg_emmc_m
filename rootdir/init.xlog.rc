@@ -28,3 +28,4 @@ on property:init.svc.adbd=running
 
 on property:init.svc.adbd=stopped
     start xlogdebugchanged
+
