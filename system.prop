@@ -2,7 +2,8 @@
 # system.prop for mt6580
 #
 service.adb.root=1
-ro.sf.lcd_density=240
+qemu.hw.mainkeys=0
+ro.sf.lcd_density=320
 wifi.interface=wlan0
 persist.mtk.aee.aed=on
 persist.radio.fd.counter=15
