@@ -86,4 +86,3 @@ service spm_script /system/bin/spm_loader
     group root
     oneshot
 
-

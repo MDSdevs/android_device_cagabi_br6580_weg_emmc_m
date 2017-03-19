@@ -651,4 +651,3 @@ on property:sys.usb.config=gs1gs3,dual_acm
     setprop sys.usb.state $sys.usb.config
     setprop sys.usb.acm_idx 1,2,4
 #INTERNAL_END
-

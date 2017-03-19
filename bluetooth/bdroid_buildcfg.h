@@ -1,6 +1,6 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#define BTM_DEF_LOCAL_NAME   "mediatek mt6580"
+#define BTM_DEF_LOCAL_NAME   "infinix x510"
 
-#endif 
+#endif
