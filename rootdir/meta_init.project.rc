@@ -38,3 +38,4 @@ service spm_script /system/bin/spm_loader
     oneshot
 
 #INTERNAL_END
+
