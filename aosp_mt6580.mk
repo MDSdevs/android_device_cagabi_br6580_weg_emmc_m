@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := mt6580
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/mediatek/mt6580/device.mk)
