@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2016 The CyanogenMod Project
 #
@@ -22,9 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 # Inherit vendor blobs
-$(call inherit-product-if-exists, vendor/mediatek/mt6580/mt6580-vendor.mk)
+$(call inherit-product-if-exists, vendor/infinix/x510/x510-vendor.mk)
 
-LOCAL_PATH := device/mediatek/mt6580
+LOCAL_PATH := device/infinix/x510
 
 PRODUCT_CHARACTERISTICS := default
 
