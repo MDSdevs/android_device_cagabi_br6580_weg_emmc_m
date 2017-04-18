@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "omnirom",
+    "repository": "android_device_mediatek_mt6580",
+    "target_path": "device/infinix/x510",
+    "revision": "android-6.0"
+  }
+]
