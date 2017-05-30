@@ -21,5 +21,5 @@
 # function: add_lunch_combo generic-eng
 
 for var in eng user userdebug; do
-  add_lunch_combo cm_x510-$var
+  add_lunch_combo cm_br6580_weg_emmc_m-$var
 done
