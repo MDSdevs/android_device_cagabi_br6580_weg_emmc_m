@@ -1,11 +1,11 @@
-$(call inherit-product, device/infinix/x510/device_x510.mk)
+$(call inherit-product, device/cagabi/br6580_weg_emmc_m/device_br6580_weg_emmc_m.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := x510
-PRODUCT_NAME := cm_x510
-PRODUCT_BRAND := infinix
-PRODUCT_MODEL := x510
-PRODUCT_MANUFACTURER := infinix
+PRODUCT_DEVICE := br6580_weg_emmc_m
+PRODUCT_NAME := cm_br6580_weg_emmc_m
+PRODUCT_BRAND := Cagabi
+PRODUCT_MODEL := M8 One
+PRODUCT_MANUFACTURER := Cagabi
