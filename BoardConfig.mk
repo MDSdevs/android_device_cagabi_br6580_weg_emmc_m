@@ -1,6 +1,6 @@
 # mt6580 platform boardconfig
-LOCAL_PATH := device/infinix/x510
--include vendor/infinix/x510/BoardConfigVendor.mk
+LOCAL_PATH := device/cagabi/br6580_weg_emmc_m
+-include vendor/cagabi/br6580_weg_emmc_m/BoardConfigVendor.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
@@ -134,8 +134,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 #TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 #BOARD_HAS_NO_SELECT_BUTTON := true
 #TW_NO_REBOOT_BOOTLOADER := true
-#TARGET_RECOVERY_FSTAB := device/infinix/x510/recovery/root/etc/recovery.fstab
-#TARGET_RECOVERY_DEVICE_DIRS += deviсe/infinix/x510
+#TARGET_RECOVERY_FSTAB := device/cagabi/br6580_weg_emmc_m/recovery/root/etc/recovery.fstab
+#TARGET_RECOVERY_DEVICE_DIRS += deviсe/cagabi/br6580_weg_emmc_m
 #TW_THEME := portrait_hdpi
 #RECOVERY_GRAPHICS_USE_LINELENGTH := true
 #TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
@@ -156,7 +156,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS := \
-       device/infinix/x510/sepolicy
+       device/cagabi/br6580_weg_emmc_m/sepolicy
 
 # Hack for build
 $(shell mkdir -p $(OUT)/obj/KERNEL_OBJ/usr)
