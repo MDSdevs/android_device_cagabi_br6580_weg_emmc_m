@@ -41,7 +41,7 @@ BOARD_USES_MTK_HARDWARE :=true
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32S1,32S1 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --base 0x80000000 --pagesize 2048 --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --second_offset 0x80f00000 --tags_offset 0x0e000000 --board R09
+BOARD_MKBOOTIMG_ARGS := --base 0x80000000 --pagesize 2048 --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000 --board R09
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 
 TARGET_KMODULES := true
@@ -131,27 +131,27 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # TWRP
-RECOVERY_VARIANT := twrp
-TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
-BOARD_HAS_NO_SELECT_BUTTON := true
-TW_NO_REBOOT_BOOTLOADER := true
-TARGET_RECOVERY_FSTAB := device/cagabi/br6580_weg_emmc_m/recovery/root/etc/recovery.fstab
-TARGET_RECOVERY_DEVICE_DIRS += deviсe/cagabi/br6580_weg_emmc_m
-TW_THEME := portrait_hdpi
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0/gadget/lun%d/file
-TW_MAX_BRIGHTNESS := 255
-RECOVERY_SDCARD_ON_DATA := true
-TW_DEFAULT_EXTERNAL_STORAGE := true
-TW_CRYPTO_FS_TYPE := "ext4"
-TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p20"
-TW_CRYPTO_MNT_POINT := "/data"
-TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
-TW_NO_USB_STORAGE := true
-TW_EXCLUDE_SUPERSU := true
-TW_INCLUDE_FB2PNG := true
-TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
+#RECOVERY_VARIANT := twrp
+#TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
+#BOARD_HAS_NO_SELECT_BUTTON := true
+#TW_NO_REBOOT_BOOTLOADER := true
+#TARGET_RECOVERY_FSTAB := device/cagabi/br6580_weg_emmc_m/recovery/root/etc/recovery.fstab
+#TARGET_RECOVERY_DEVICE_DIRS += deviсe/cagabi/br6580_weg_emmc_m
+#TW_THEME := portrait_hdpi
+#RECOVERY_GRAPHICS_USE_LINELENGTH := true
+#TW_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
+#TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0/gadget/lun%d/file
+#TW_MAX_BRIGHTNESS := 255
+#RECOVERY_SDCARD_ON_DATA := true
+#TW_DEFAULT_EXTERNAL_STORAGE := true
+#TW_CRYPTO_FS_TYPE := "ext4"
+#TW_CRYPTO_REAL_BLKDEV := "/dev/block/mmcblk0p20"
+#TW_CRYPTO_MNT_POINT := "/data"
+#TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered"
+#TW_NO_USB_STORAGE := true
+#TW_EXCLUDE_SUPERSU := true
+#TW_INCLUDE_FB2PNG := true
+#TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
 #TW_EXTRA_LANGUAGES := true
 #TW_BUILD_ZH_CN_SUPPORT := true
 
